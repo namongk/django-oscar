@@ -1,11 +1,11 @@
 from django_dynamic_fixture import G
-from django.contrib.auth.models import User
 
 from mock import Mock
 import contextlib
 
 from oscar_testsupport.testcases import WebTestCase
 from oscar_testsupport.factories import create_product
+from oscar.core.compat import User
 
 from oscar.apps.catalogue.reviews.signals import review_added
 

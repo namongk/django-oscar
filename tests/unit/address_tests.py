@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from django.contrib.auth.models import User
+from oscar.core.compat import User
 from django.test import TestCase
 
 from oscar.apps.address.models import Country, UserAddress

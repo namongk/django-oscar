@@ -2,12 +2,12 @@ from decimal import Decimal as D
 import httplib
 import datetime
 
-from django.contrib.auth.models import User
 from django.conf import settings
 from django.test import TestCase, Client
 from django.core.urlresolvers import reverse
 
 from oscar_testsupport.factories import create_product
+from oscar.core.compat import User
 from oscar.apps.basket.models import Basket
 from oscar.apps.basket import reports
 

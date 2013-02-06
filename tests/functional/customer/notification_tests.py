@@ -1,7 +1,7 @@
-from django.contrib.auth.models import User
 from django_dynamic_fixture import G
 
 from oscar_testsupport.testcases import WebTestCase
+from oscar.core.compat import User
 from oscar.apps.customer.notifications import services
 
 

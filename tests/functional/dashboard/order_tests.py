@@ -1,7 +1,7 @@
 import httplib
 
 from django.test import TestCase
-from django.contrib.auth.models import User
+from oscar.core.compat import User
 from django.core.urlresolvers import reverse
 from django.template import Template, Context
 from django_dynamic_fixture import get

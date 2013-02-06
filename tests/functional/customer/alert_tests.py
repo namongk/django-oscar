@@ -1,10 +1,10 @@
 from django_webtest import WebTest
-from django.contrib.auth.models import User
 from django.core.urlresolvers import reverse
 from django.core import mail
 from django_dynamic_fixture import G
 
 from oscar_testsupport.factories import create_product
+from oscar.core.compat import User
 from oscar.apps.customer.models import ProductAlert
 
 

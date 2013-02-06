@@ -1,7 +1,7 @@
 from decimal import Decimal as D
 import datetime
 
-from django.contrib.auth.models import User
+from oscar.core.compat import User
 from django.test import TestCase
 from django_dynamic_fixture import G
 

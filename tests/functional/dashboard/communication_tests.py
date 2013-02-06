@@ -1,5 +1,5 @@
 from django_dynamic_fixture import G
-from django.contrib.auth.models import User
+from oscar.core.compat import User
 from django.core.urlresolvers import reverse
 from django.core import mail
 

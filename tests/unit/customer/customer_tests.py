@@ -1,6 +1,6 @@
 from django.test import TestCase
 from django.core import mail
-from django.contrib.auth.models import User
+from oscar.core.compat import User
 
 from oscar.apps.customer.utils import Dispatcher
 from oscar_testsupport.factories import create_order

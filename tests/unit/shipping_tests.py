@@ -1,7 +1,7 @@
 from decimal import Decimal as D
 
 from django.test import TestCase
-from django.contrib.auth.models import User
+from oscar.core.compat import User
 
 from oscar.apps.shipping.methods import Free, FixedPrice
 from oscar.apps.shipping.models import OrderAndItemCharges, WeightBased

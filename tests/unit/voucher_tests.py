@@ -3,7 +3,7 @@ from decimal import Decimal as D
 
 from django.test import TestCase
 from django.core import exceptions
-from django.contrib.auth.models import User
+from oscar.core.compat import User
 from django_dynamic_fixture import G
 
 from oscar.apps.voucher.models import Voucher

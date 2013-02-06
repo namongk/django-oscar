@@ -1,12 +1,12 @@
 import re
 
 from django.contrib.auth import models
-from django.contrib.auth.models import User
 from django.core import mail
 from django.core.urlresolvers import reverse
 from django_webtest import WebTest
 
 from oscar_testsupport.testcases import WebTestCase
+from oscar.core.compat import User
 
 
 class TestAUserWhoseForgottenHerPassword(WebTest):

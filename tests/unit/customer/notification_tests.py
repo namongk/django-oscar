@@ -1,5 +1,5 @@
 from django.test import TestCase
-from django.contrib.auth.models import User
+from oscar.core.compat import User
 from django_dynamic_fixture import G
 
 from oscar.apps.customer.models import Notification
